@@ -148,7 +148,6 @@ const changePlay = () => {
  * @param {Object} evt 
  */
 const clean = evt => {
-    console.log('cleaning!')
     evt.preventDefault()
     for (let y = 0; y < columns; y++) {
         for (let x = 0; x < rows; x++) {
